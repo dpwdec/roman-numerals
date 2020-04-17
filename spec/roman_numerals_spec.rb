@@ -10,4 +10,8 @@ describe RomanNumeralConverter do
   it "returns an empty string when it receives 0" do
     expect(subject.convert_to_roman(0)).to eq("")
   end
+  
+  it "return 'I' when it receives 1" do
+    expect(subject.convert_to_roman(1)).to eq("I")
+  end
 end

@@ -12,8 +12,6 @@ Create a program that converts the numbers up to 10 (inclusive) to roman numeral
 6. Code to pass the test
 5. Create a test for the simplest number "0" which will return an empty string
 6. Code a solution to handle this case so that test passes
-7. Create a test that manages numbers greater than 10 by also return the module of number / 10 to a numeral
-8. Code a solution so that the test passes.
 9. Create a test for converting 1 to "I"
 10. Code a solution so that the test passes.
 11. Create a test for converting 2 to "II"
@@ -33,3 +31,5 @@ Create a program that converts the numbers up to 10 (inclusive) to roman numeral
 10. Code a solution so that the test passes.
 11. Create a test for converting 10 to "X"
 10. Code a solution so that the test passes.
+11. Create a test that manages numbers greater than 10 by also return the module of number / 10 to a numeral
+8. Code a solution so that the test passes.
