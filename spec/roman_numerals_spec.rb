@@ -6,4 +6,8 @@ describe RomanNumeralConverter do
   it "returns a string" do
     expect(subject.convert_to_roman(1)).to be_a_kind_of(String)
   end
+  
+  it "returns an empty string when it receives 0" do
+    expect(subject.convert_to_roman(0)).to eq("")
+  end
 end
