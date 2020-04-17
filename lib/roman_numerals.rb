@@ -1,4 +1,5 @@
 class RomanNumeralConverter
-  def convert(number)
+  def convert_to_roman(number)
+    ""
   end
 end
