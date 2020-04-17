@@ -1,6 +1,7 @@
 class RomanNumeralConverter
   
-  NUMERAL_CHART = {"1" => "I" }
+  NUMERAL_CHART = {"1" => "I",
+  "2" => "II"}
   
   def convert_to_roman(number)
     return "" if number <= 0
