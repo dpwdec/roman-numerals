@@ -22,4 +22,8 @@ describe RomanNumeralConverter do
   it "returns 'III' when it receives 3" do
      expect(subject.convert_to_roman(3)).to eq("III")
   end
+  
+  it "returns 'IV' when it receives 4" do
+     expect(subject.convert_to_roman(4)).to eq("IV")
+  end
 end
